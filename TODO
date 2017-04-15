@@ -1,0 +1,6 @@
+
+- After receiving at an address, bump active QR code so that the next is displayed
+ [ it looks like we already start monitoring the next one, but the 'old' one is still displayed in the tab ]
+
+- Don't save QRcodes in TMPDIR, and properly clean them up when not needed.  Maybe use a tmpdir?
+

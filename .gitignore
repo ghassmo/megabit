@@ -1,0 +1,4 @@
+.qmake.stash
+Makefile
+build/
+ui_megabit.h
