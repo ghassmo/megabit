@@ -2,3 +2,7 @@
 Makefile
 build/
 ui_megabit.h
+Megabit.conf
+megabit
+qrc_megabit.cpp
+                        
