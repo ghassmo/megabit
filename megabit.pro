@@ -59,6 +59,10 @@ MOC_DIR=build
 
 CONFIG += c++11 link_pkgconfig debug static
 
-PKGCONFIG += libbitcoin-client
+macx{
+        QT_CONFIG -= no-pkg-config
+}
+
+
 
 LIBS += -lz

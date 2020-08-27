@@ -5,4 +5,6 @@ ui_megabit.h
 Megabit.conf
 megabit
 qrc_megabit.cpp
+megabit.app/
+megabit.pro.user
                         
