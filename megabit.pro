@@ -62,7 +62,6 @@ CONFIG += c++11 link_pkgconfig debug static
 macx{
         QT_CONFIG -= no-pkg-config
 }
-
-
+PKGCONFIG += libbitcoin-client
 
 LIBS += -lz
